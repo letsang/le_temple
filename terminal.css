@@ -17,8 +17,12 @@ span {
 
 .window {
   background: #fff;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 66px;
   box-sizing: border-box;
+  height: 625px;
+  width: 900px;
   overflow-y: auto;
   border: 1px solid #acacac;
   border-radius: 6px;
@@ -148,7 +152,10 @@ span {
   margin: auto;
   box-sizing: border-box;
   overflow-y: auto;
-  height: 800px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  height: 600px;
+  width: 900px;
   border: 0.1px solid #ddd;
   padding: 10px;
   background: rgba(0, 0, 0);
