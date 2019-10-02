@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script src="terminalize.js" type="text/javascript"></script>
     <link rel="stylesheet" href="terminal.css" type="text/css" media="all">
     <script type="text/javascript" charset="utf-8">
@@ -22,28 +22,49 @@
         padding: 20px;
         height: 100%;
         box-sizing: border-box;
-        background: #666;
+        background: rgb(240, 240, 240);
         color: white;
       }
     </style>
-    <title>brainfuck</title>
+    <title>fahck</title>
   </head>
   <div class="fake-browser-ui">
       <div class="frame">
       </div>
       <body>
-          <ul id="terminal">
-              <li><a href="https://youtu.be/SJa80bzhENs">campaign</a></li>
-              <li><a href="https://www.instagram.com/tshirts.archives/">shop</a></li>
-              <li>
-                  <h1>contact</h1>
-                  <ul>
-                      <li><h1>mail</h1>
-                          jtsang@student.42.fr
+          <div class="window">
+            <div class="titlebar">
+              <div class="buttons">
+                <div class="close">
+                  <a class="closebutton" href="#"><span><strong>x</strong></span></a>
+                  <!-- close button link -->
+                </div>
+                <div class="minimize">
+                  <a class="minimizebutton" href="#"><span><strong>&ndash;</strong></span></a>
+                  <!-- minimize button link -->
+                </div>
+                <div class="zoom">
+                  <a class="zoombutton" href="#"><span><strong>+</strong></span></a>
+                  <!-- zoom button link -->
+                </div>
+              </div>
+              fahck.io — 140x56
+              <!-- window title -->
+            </div>
+            <div class="content">
+                  <ul id="terminal">
+                      <li><a href="https://youtu.be/SJa80bzhENs">campaign</a></li>
+                      <li><a href="https://www.instagram.com/tshirts.archives/">shop</a></li>
+                      <li>
+                          <h1>contact</h1>
+                          <ul>
+                              <li><h1>mail</h1>
+                                  jtsang@student.42.fr
+                              </li>
+                          </ul>
                       </li>
                   </ul>
-              </li>
-          </ul>
+            </div>
       </body>
   </div>
 </html>
