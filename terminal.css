@@ -213,3 +213,8 @@ span {
   padding: 0;
   font: inherit;
 }
+
+footer {
+  max-width: 20%;
+  height: auto;
+}
