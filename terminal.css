@@ -21,7 +21,7 @@ span {
   margin-right: auto;
   margin-top: 66px;
   box-sizing: border-box;
-  height: 630px;
+  height: 625px;
   width: 900px;
   overflow-y: auto;
   border: 1px solid #acacac;
@@ -154,8 +154,8 @@ span {
   overflow-y: auto;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-  height: 580px;
-  width: 890px;
+  height: 599px;
+  width: 898px;
   border: 0.1px solid #ddd;
   padding: 10px;
   background: rgba(0, 0, 0);
