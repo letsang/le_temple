@@ -151,7 +151,7 @@ span {
 .terminal-main {
   margin: auto;
   box-sizing: border-box;
-  overflow-y: auto;
+  overflow-y: hidden;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   height: 600px;
