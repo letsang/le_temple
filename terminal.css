@@ -23,7 +23,7 @@ span {
   box-sizing: border-box;
   height: 625px;
   width: 900px;
-  overflow-y: hidden;
+  overflow: hidden;
   border: 1px solid #acacac;
   border-radius: 6px;
   box-shadow: 0px 0px 20px #acacac;
@@ -151,7 +151,7 @@ span {
 .terminal-main {
   margin: auto;
   box-sizing: border-box;
-  overflow-y: hidden;
+  overflow: hidden;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   height: 600px;
